@@ -1,0 +1,41 @@
+.container__search {
+  height: 10rem;
+  width: 100%;
+  display: block;
+}
+.form-group {
+  margin: 0 auto;
+  width: 70%;
+}
+.label-form {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.form-control {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100px;
+  text-decoration: none;
+  padding: 0.8rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  margin-top: 2rem;
+  background-color: rgb(34, 126, 34);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rbga(black, 0.2);
+}
+
+button:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rbga(black, 0.2);
+}

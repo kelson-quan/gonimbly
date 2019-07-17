@@ -1,0 +1,24 @@
+.container__results {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  height: 75vh;
+  width: 75%;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  display: block;
+}
+
+.header-result {
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 50%;
+  position: absolute;
+}
+
+.img-result {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
